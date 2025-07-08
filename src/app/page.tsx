@@ -1,10 +1,10 @@
-import HeroSection from "./_components/HeroSection";
-import QuickStatsSection from "./_components/QuickStatsSection";
-import AboutSection from "./_components/AboutSection";
-import AmenitiesSection from "./_components/AmenitiesSection";
-import LocationSection from "./_components/LocationSection";
-import CTASection from "./_components/CTASection";
-import FeaturedRoomsSection from "./_components/FeaturedRoomsSection";
+import HeroSection from "./_sections/HeroSection";
+import QuickStatsSection from "./_sections/QuickStatsSection";
+import AboutSection from "./_sections/AboutSection";
+import AmenitiesSection from "./_sections/AmenitiesSection";
+import LocationSection from "./_sections/LocationSection";
+import CTASection from "./_sections/CTASection";
+import FeaturedRoomsSection from "./_sections/FeaturedRoomsSection";
 
 export default function Home() {
   return (

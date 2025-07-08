@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+@theme {
+  /* Main Colors */
+  --color-main: #036ef2;
+
+  /* Text Colors */
+  --color-tx-dr-primary: #313131;
+  --color-tx-dr-secondary: #414141;
+  --color-tx-lt-primary: #f5f5f5;
+  --color-tx-lt-secondary: rgba(245, 245, 245, 0.75);
+  --color-tx-tertary: #818181;
+}
+
+.logo-icon {
+  font-size: 1.875rem;
+  color: var(--color-main);
+  stroke-width: 1;
+}

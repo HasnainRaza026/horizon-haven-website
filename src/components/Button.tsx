@@ -4,6 +4,7 @@ export default function Button({
   textSize,
   fontWeight,
   customStyles,
+  type,
   children,
 }: {
   color: string;
@@ -11,10 +12,12 @@ export default function Button({
   textSize?: string;
   fontWeight?: string;
   customStyles?: string;
+  type?: "button" | "submit" | "reset";
   children: React.ReactNode;
 }) {
   return (
     <button
+      type={type || "button"}
       className={`${
         color === "blue"
           ? "bg-blue-600 text-white hover:bg-blue-700"

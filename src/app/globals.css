@@ -12,6 +12,10 @@
   --color-tx-tertary: #818181;
 }
 
+button {
+  cursor: pointer;
+}
+
 .logo-icon {
   font-size: 1.875rem;
   color: var(--color-main);

@@ -6,6 +6,7 @@ import Logo from "./Logo";
 import { MdClose, MdMenu, MdOutlineDateRange } from "react-icons/md";
 import { FiUser } from "react-icons/fi";
 import { navigation } from "@/data/navigation";
+import Button from "./Button";
 // import { useAuth } from "@/hooks/useAuth";
 
 export default function Header() {
@@ -83,11 +84,8 @@ export default function Header() {
                 >
                   Login
                 </Link>
-                <Link
-                  href="/auth/register"
-                  className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors"
-                >
-                  Register
+                <Link href="/auth/register">
+                  <Button color="blue">Register</Button>
                 </Link>
               </div>
             )}

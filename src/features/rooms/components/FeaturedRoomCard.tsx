@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Room } from "../types/roomType";
 import { FiUsers } from "react-icons/fi";
+import Button from "@/components/Button";
 
 export default function FeaturedRoomCard({ room }: { room: Room }) {
   return (
@@ -28,11 +29,8 @@ export default function FeaturedRoomCard({ room }: { room: Room }) {
             <FiUsers className="w-4 h-4 mr-1" />
             {room.capacity} guests
           </div>
-          <Link
-            href={`/rooms/${room.id}`}
-            className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors"
-          >
-            View Details
+          <Link href={`/rooms/${room.id}`}>
+            <Button color="blue">View Details</Button>
           </Link>
         </div>
       </div>

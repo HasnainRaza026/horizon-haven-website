@@ -1,3 +1,4 @@
+import Button from "@/components/Button";
 import FeaturedRoomCard from "@/features/rooms/components/FeaturedRoomCard";
 import { rooms } from "@/features/rooms/data/roomData";
 import Link from "next/link";
@@ -24,11 +25,15 @@ export default function FeaturedRoomsSection() {
         </div>
 
         <div className="text-center mt-12">
-          <Link
-            href="/rooms"
-            className="bg-blue-600 text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-blue-700 transition-colors"
-          >
-            View All Rooms
+          <Link href="/rooms">
+            <Button
+              color="blue"
+              textSize="text-lg"
+              fontWeight="font-semibold"
+              padding="px-8 py-3"
+            >
+              View All Rooms
+            </Button>
           </Link>
         </div>
       </div>

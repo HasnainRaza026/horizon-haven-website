@@ -1,3 +1,4 @@
+import Button from "@/components/Button";
 import Link from "next/link";
 
 export default function CTASection() {
@@ -11,17 +12,26 @@ export default function CTASection() {
           Book now and experience the luxury you deserve
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Link
-            href="/rooms"
-            className="bg-white text-blue-600 px-8 py-3 rounded-md text-lg font-semibold hover:bg-gray-100 transition-colors"
-          >
-            Book Your Room
+          <Link href="/rooms">
+            <Button
+              color="white"
+              padding="px-8 py-3"
+              textSize="text-lg"
+              fontWeight="font-semibold"
+            >
+              Book Your Room
+            </Button>
           </Link>
-          <a
-            href="tel:+1234567890"
-            className="bg-blue-700 text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-blue-800 transition-colors"
-          >
-            Call +1 (234) 567-8900
+          <a href="tel:+1234567890">
+            <Button
+              color="blue"
+              customStyles="bg-blue-700 hover:bg-blue-800"
+              padding="px-8 py-3"
+              textSize="text-lg"
+              fontWeight="font-semibold"
+            >
+              Call +1 (234) 567-8900
+            </Button>
           </a>
         </div>
       </div>

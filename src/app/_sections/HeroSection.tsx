@@ -1,3 +1,4 @@
+import Button from "@/components/Button";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -21,17 +22,25 @@ export default function HeroSection() {
           Where luxury meets comfort in paradise
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Link
-            href="/rooms"
-            className="bg-blue-600 text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-blue-700 transition-colors"
-          >
-            Book Your Stay
+          <Link href="/rooms">
+            <Button
+              color="blue"
+              textSize="text-lg"
+              fontWeight="font-semibold"
+              padding="px-8 py-3"
+            >
+              Book Your Stay
+            </Button>
           </Link>
-          <Link
-            href="/about"
-            className="bg-white text-gray-900 px-8 py-3 rounded-md text-lg font-semibold hover:bg-gray-100 transition-colors"
-          >
-            Learn More
+          <Link href="/about">
+            <Button
+              color="white"
+              textSize="text-lg"
+              fontWeight="font-semibold"
+              padding="px-8 py-3"
+            >
+              Learn More
+            </Button>
           </Link>
         </div>
       </div>

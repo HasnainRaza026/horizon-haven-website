@@ -5,7 +5,8 @@ export interface Room {
   price: number;
   capacity: number;
   amenities: string[];
-  images: string[];
+  images: string;
+  blurImageUrl: string;
   features: string[];
   size: string;
   bedType: string;

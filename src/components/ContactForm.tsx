@@ -101,6 +101,14 @@ export default function ContactForm() {
         <SelectField
           lable="Subject"
           id="subject"
+          options={[
+            { value: "reservation", text: "Reservation Inquiry" },
+            { value: "existing", text: "Existing Reservation" },
+            { value: "amenities", text: "Hotel Amenities" },
+            { value: "events", text: "Events & Special Occasions" },
+            { value: "feedback", text: "Feedback" },
+            { value: "other", text: "other" },
+          ]}
           error={
             typeof errors?.subject?.message === "string"
               ? errors.subject.message

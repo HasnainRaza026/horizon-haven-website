@@ -7,7 +7,7 @@ export default function InputField({
   error,
   register,
 }: {
-  lable: string;
+  lable: string | (() => React.ReactNode);
   type: string;
   id: string;
   error: string;
@@ -19,7 +19,7 @@ export default function InputField({
         htmlFor={id}
         className="block text-sm font-medium text-gray-700 mb-2"
       >
-        {lable}
+        {typeof lable === "function" ? lable() : lable}
       </label>
       <input
         type={type}

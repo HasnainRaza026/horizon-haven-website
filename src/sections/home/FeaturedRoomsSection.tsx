@@ -1,6 +1,6 @@
 import Button from "@/components/Button";
-import FeaturedRoomCard from "@/features/rooms/components/FeaturedRoomCard";
-import { rooms } from "@/features/rooms/data/roomData";
+import FeaturedRoomCard from "@/modules/rooms/components/FeaturedRoomCard";
+import { rooms } from "@/modules/rooms/data/roomData";
 import Link from "next/link";
 
 export default function FeaturedRoomsSection() {

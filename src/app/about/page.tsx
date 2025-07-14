@@ -1,10 +1,10 @@
-import HeroSection from "./_sections/HeroSection";
-import StorySection from "./_sections/StorySection";
-import ValuesSection from "./_sections/ValuesSection";
-import AwardsSection from "./_sections/AwardsSection";
-import LocationSection from "./_sections/LocationSection";
+import HeroSection from "../../sections/about/HeroSection";
+import StorySection from "../../sections/about/StorySection";
+import ValuesSection from "../../sections/about/ValuesSection";
+import AwardsSection from "../../sections/about/AwardsSection";
+import LocationSection from "../../sections/about/LocationSection";
 
-export default function About() {
+export default function AboutPage() {
   return (
     <div className="min-h-screen bg-white">
       <HeroSection />

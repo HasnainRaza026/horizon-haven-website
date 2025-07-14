@@ -1,5 +1,5 @@
 import { FiClock, FiMail, FiMapPin, FiPhone } from "react-icons/fi";
-import ContactForm from "../_components/ContactForm";
+import ContactForm from "../../components/ContactForm";
 
 export default function ContactInformationSection() {
   return (

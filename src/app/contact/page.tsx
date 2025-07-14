@@ -1,8 +1,8 @@
-import HeroSection from "./_sections/HeroSection";
-import ContactInformationSection from "./_sections/ContactInformationSection";
-import QuickContactSection from "./_sections/QuickContactSection";
+import HeroSection from "../../sections/contact/HeroSection";
+import ContactInformationSection from "../../sections/contact/ContactInformationSection";
+import QuickContactSection from "../../sections/contact/QuickContactSection";
 
-export default function Contact() {
+export default function ContactPage() {
   return (
     <div className="min-h-screen bg-white">
       <HeroSection />

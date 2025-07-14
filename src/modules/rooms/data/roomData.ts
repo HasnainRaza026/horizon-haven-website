@@ -15,11 +15,9 @@ export const rooms: Room[] = [
       "Mini Bar",
       "Spa Bath",
     ],
-    images: [
+    images: "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg",
+    blurImageUrl:
       "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg",
-      "https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg",
-      "https://images.pexels.com/photos/1034584/pexels-photo-1034584.jpeg",
-    ],
     features: [
       "Free WiFi",
       "Room Service",
@@ -38,11 +36,9 @@ export const rooms: Room[] = [
     price: 199,
     capacity: 2,
     amenities: ["Garden View", "Queen Bed", "Work Desk", "Coffee Machine"],
-    images: [
+    images: "https://images.pexels.com/photos/271643/pexels-photo-271643.jpeg",
+    blurImageUrl:
       "https://images.pexels.com/photos/271643/pexels-photo-271643.jpeg",
-      "https://images.pexels.com/photos/1457847/pexels-photo-1457847.jpeg",
-      "https://images.pexels.com/photos/1034594/pexels-photo-1034594.jpeg",
-    ],
     features: ["Free WiFi", "Room Service", "Air Conditioning", "Work Space"],
     size: "35 sqm",
     bedType: "Queen Bed",
@@ -61,11 +57,9 @@ export const rooms: Room[] = [
       "Two Bathrooms",
       "Dining Area",
     ],
-    images: [
+    images: "https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg",
+    blurImageUrl:
       "https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg",
-      "https://images.pexels.com/photos/1457841/pexels-photo-1457841.jpeg",
-      "https://images.pexels.com/photos/1034585/pexels-photo-1034585.jpeg",
-    ],
     features: [
       "Free WiFi",
       "Room Service",
@@ -89,11 +83,9 @@ export const rooms: Room[] = [
       "Compact Design",
       "Essential Amenities",
     ],
-    images: [
+    images: "https://images.pexels.com/photos/271639/pexels-photo-271639.jpeg",
+    blurImageUrl:
       "https://images.pexels.com/photos/271639/pexels-photo-271639.jpeg",
-      "https://images.pexels.com/photos/1457844/pexels-photo-1457844.jpeg",
-      "https://images.pexels.com/photos/1034587/pexels-photo-1034587.jpeg",
-    ],
     features: [
       "Free WiFi",
       "Air Conditioning",
@@ -117,11 +109,9 @@ export const rooms: Room[] = [
       "Kids Amenities",
       "Extra Space",
     ],
-    images: [
+    images: "https://images.pexels.com/photos/271640/pexels-photo-271640.jpeg",
+    blurImageUrl:
       "https://images.pexels.com/photos/271640/pexels-photo-271640.jpeg",
-      "https://images.pexels.com/photos/1457845/pexels-photo-1457845.jpeg",
-      "https://images.pexels.com/photos/1034588/pexels-photo-1034588.jpeg",
-    ],
     features: [
       "Free WiFi",
       "Room Service",
@@ -145,11 +135,9 @@ export const rooms: Room[] = [
       "Premium Amenities",
       "Butler Service",
     ],
-    images: [
+    images: "https://images.pexels.com/photos/271641/pexels-photo-271641.jpeg",
+    blurImageUrl:
       "https://images.pexels.com/photos/271641/pexels-photo-271641.jpeg",
-      "https://images.pexels.com/photos/1457846/pexels-photo-1457846.jpeg",
-      "https://images.pexels.com/photos/1034589/pexels-photo-1034589.jpeg",
-    ],
     features: [
       "Free WiFi",
       "Butler Service",
@@ -173,11 +161,9 @@ export const rooms: Room[] = [
       "High-Speed Internet",
       "Meeting Space",
     ],
-    images: [
+    images: "https://images.pexels.com/photos/271642/pexels-photo-271642.jpeg",
+    blurImageUrl:
       "https://images.pexels.com/photos/271642/pexels-photo-271642.jpeg",
-      "https://images.pexels.com/photos/1457848/pexels-photo-1457848.jpeg",
-      "https://images.pexels.com/photos/1034590/pexels-photo-1034590.jpeg",
-    ],
     features: [
       "Free WiFi",
       "Work Desk",
@@ -201,11 +187,9 @@ export const rooms: Room[] = [
       "Rose Petals",
       "Special Lighting",
     ],
-    images: [
+    images: "https://images.pexels.com/photos/271700/pexels-photo-271700.jpeg",
+    blurImageUrl:
       "https://images.pexels.com/photos/271700/pexels-photo-271700.jpeg",
-      "https://images.pexels.com/photos/1457849/pexels-photo-1457849.jpeg",
-      "https://images.pexels.com/photos/1034591/pexels-photo-1034591.jpeg",
-    ],
     features: [
       "Free WiFi",
       "Room Service",

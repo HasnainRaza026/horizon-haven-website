@@ -1,12 +1,12 @@
-import HeroSection from "./_sections/HeroSection";
-import QuickStatsSection from "./_sections/QuickStatsSection";
-import AboutSection from "./_sections/AboutSection";
-import AmenitiesSection from "./_sections/AmenitiesSection";
-import LocationSection from "./_sections/LocationSection";
-import CTASection from "./_sections/CTASection";
-import FeaturedRoomsSection from "./_sections/FeaturedRoomsSection";
+import HeroSection from "../sections/home/HeroSection";
+import QuickStatsSection from "../sections/home/QuickStatsSection";
+import AboutSection from "../sections/home/AboutSection";
+import AmenitiesSection from "../sections/home/AmenitiesSection";
+import LocationSection from "../sections/home/LocationSection";
+import CTASection from "../sections/home/CTASection";
+import FeaturedRoomsSection from "../sections/home/FeaturedRoomsSection";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <div className="min-h-screen">
       <HeroSection />
